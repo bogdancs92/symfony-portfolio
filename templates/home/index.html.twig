@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+<div class="container text-center">
+    <div class="jumbotron mt-5">
+        <h1>Bogdan SCANTEIE</h1>
+        <p class="lead">
+            Ce site est une vitrine de mon parcours, mes projets, mes experiences
+        </p>
+        <hr class="my-5">
+        <p class="lead">
+            <a href="{{ path("projects") }}" class="btn btn-primary btn-lg" role="button">
+                <i class="fas fa-info-circle"></i>
+                En savoir plus
+            </a>
+        </p>
+    </div>
+</div>
+{% endblock %}

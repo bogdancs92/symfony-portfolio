@@ -1,0 +1,35 @@
+.profile-card-5 {
+    margin-top: 20px;
+}
+
+.profile-card-5 .btn {
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 7px 20px;
+}
+
+.profile-card-5 .card-img-block {
+    margin: auto;
+    position: relative;
+    top:-20px;
+}
+
+.profile-card-5 .card-img-block img {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.65);
+}
+
+.profile-card-5 h5 {
+    font-weight: 600;
+}
+
+.profile-card-5 p {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.img-medium {
+    max-width: 512px;
+    max-height: 512px;
+}
